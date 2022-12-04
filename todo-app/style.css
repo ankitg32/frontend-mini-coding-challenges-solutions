@@ -1,0 +1,29 @@
+.root {
+    text-align: center;
+}
+
+#todo-app-heading {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.todo-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+
+.todo-button {
+    border: none;
+    background-color: transparent;
+    margin-left: 10px;
+}
+
+.done .todo-text {
+    text-decoration: line-through;
+}
+
+.todo-edit {
+    margin: 10px;
+}
